@@ -10,7 +10,7 @@
     display: grid;
     border: 1px solid red;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 8% 84% 8%;
+    grid-template-rows: 10% 80% 10%;
 }
 
 .navbar {
@@ -19,7 +19,7 @@
     grid-column: 1/4;
     grid-row: 1/2;
     grid-column: 1/4;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 90%;
 }
 
 .navbarlogo {
@@ -31,75 +31,84 @@
     height: 50%;
 }
 
+.linkscontainer {
+    justify-self: center;
+    align-content: center;
+
+
+}
+
+.linkscontainer li {
+    display: inline;
+    margin-left: 10px;
+    font-size: x-large;
+    padding-right: 200px;
+    text-align: center;
+    
+
+}
+
+
 .aside1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .body {
     display: grid;
-    width: 100%;
+    width: auto;
 
-    border: 1px solid red;
-    grid-template-columns: 25% 25% 25% 25%;
+    /* border: 1px solid red; */
+    grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
+    margin: 10px;
+    justify-content: center;
 }
 
 .body img {
     width: 100px;
     height: 100px;
-
-
-
 }
 
 .image1 {
-    border: 1px solid red;
-
-
+    /* border: 1px solid red; */
 }
 
 .image2 {
-    border: 1px solid red;
-}
-
-.image1 {
-    border: 1px solid red;
-}
-
-.image2 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.image4 {
-    border: 1px solid red;
-}
+/* .image4 {
+    border: 1px solid red; } */
 
 .image5 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image6 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image7 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image8 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .aside2 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .footer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-column: 1/4;
+    font-size: large;
+color: red;
+text-align: center;
 }
