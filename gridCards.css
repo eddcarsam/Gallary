@@ -53,20 +53,49 @@ height: 200px;
    
 }
 
-.cardstats {
+.cardstats1 {
     display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 margin-top :120px;
 height: 70px;
 text-align: center;
-background: pink;
+background: purple;
 color: white;
+padding-top: 10px;
+}
+
+.cardstats2 {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+margin-top :120px;
+height: 70px;
+text-align: center;
+background: orange;
+color: white;
+padding-top: 10px;
+}
+
+.cardstats3 {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+margin-top :120px;
+height: 70px;
+text-align: center;
+background: green;
+color: white;
+padding-top: 10px;
 }
 
 .value1{
-    margin-top: 10px;
+    font-size: 20px;
+}
+.value{
    font-weight: bold;
+color:lightgray;
+padding-top:5px;
 }
 
 
