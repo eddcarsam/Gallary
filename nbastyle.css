@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.weblayout {
+    /* border: 10px solid red; */
+    width: 100%;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 8% 8% 79% 5%;
+
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    grid-template-columns: 10% 90%;
+}
+
+.navbarlogo img {
+    width: 100%;
+    height: 50px;
+
+}
+
+.linkscontainer {
+    justify-self: center;
+    align-content: center;
+}
+
+.linkscontainer li {
+    /* background-color: blue; */
+    display: inline;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.team {
+    display: inline;
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team li {
+    /* background-color: blue; */
+    display: inline;
+    font-size: 30px;
+    margin-right: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.east{
+    background-color: rgb(43, 50, 158);
+    color: white;
+}
+
+.west{
+background-color: rgb(175, 15, 15);
+color: white;
+}
+
+
+.body {
+    display: grid;
+    grid-column: 1/5;
+    grid-row:3/4;
+    width: 100%;
+    /* border: 1px solid blue; */
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+      grid-gap: 10px;
+justify-items: center;
+   
+}
+
+.body img {
+    width: 100px;
+    height: 70px;
+    
+
+
+}
+
+.nbaimage1 {
+    border: 1px solid red;
+    width: 200px;
+    height: 120px;
+    background-color: aquamarine;
+
+}
+
+.nbaimage1 p{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.footer {
+    /* border: 1px solid red; */
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: large;
+    color: red;
+    justify-self: center;
+    align-self: center;
+    /* background-color: brown; */ 
+    font-size: 20px;
+}
